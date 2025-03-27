@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  font-family: "Signika Negative", sans-serif;
+}
+
+.container {
+  width: 400px;
+}
+
+.container .accordion .accordion-item {
+  position: relative;
+}
+
+.container .accordion .accordion-item .accordion-title {
+  font-weight: bold;
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+  padding: 10px;
+}
+
+.container .accordion .accordion-item .accordion-button {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: #F2F2F2;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.container .accordion .accordion-item .accordion-content {
+  font-size: 13px;
+  color: #0D0D0D;
+  overflow: hidden;
+  margin: 10px;
+  transition: 0.5s ease;
+}
+
+.background-active {
+  background-color: #737373;
+}
