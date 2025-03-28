@@ -13,7 +13,7 @@ accordionButton.forEach(button => {
 
     if(button.classList.contains('active')){
       accordion.style.maxHeight = accordion.scrollHeight + 'px';
-      button.textContent = 'x';
+      button.textContent = '-';
     }else {
       accordion.style.maxHeight = 0;
       button.textContent = '+';

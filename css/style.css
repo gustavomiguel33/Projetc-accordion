@@ -13,10 +13,25 @@ body {
   height: 100vh;
 
   font-family: "Signika Negative", sans-serif;
+  background-image: url(/image/background.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 
 .container {
   width: 400px;
+  border: 1px solid #0f0f0f;
+  padding: 20px 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #0f0f0f86;
+  background-color: #F2F2F2;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .container .accordion .accordion-item {
